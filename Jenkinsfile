@@ -5,6 +5,12 @@ pipeline {
             steps {
                 echo "initialized"
             }
+	    steps {
+                robot -i TC1 test1.robot
+            }
+	    steps {
+                robot -i TC2 test1.robot
+            }
         }
 	stage ('Build jenkins job') {
             steps {
@@ -19,6 +25,9 @@ pipeline {
             post {
                 success {
                     echo "Passed..."
+                }
+		failure {
+                    echo "Failed..."
                 }
             }
         }

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot rpa="false" generated="20191006 18:09:15.290" generator="Robot 3.1.2 (Python 2.7.12 on win32)">
+<suite source="C:\Tausif\Self Study\PipelineTest\test1.robot" id="s1" name="Test1">
+<test id="s1-t1" name="Test Case 1">
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>This is test case 1</arg>
+</arguments>
+<status status="PASS" endtime="20191006 18:09:15.350" starttime="20191006 18:09:15.349"></status>
+</kw>
+<status status="PASS" endtime="20191006 18:09:15.351" critical="yes" starttime="20191006 18:09:15.347"></status>
+</test>
+<status status="PASS" endtime="20191006 18:09:15.357" starttime="20191006 18:09:15.296"></status>
+</suite>
+<statistics>
+<total>
+<stat fail="0" pass="1">Critical Tests</stat>
+<stat fail="0" pass="1">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat fail="0" id="s1" name="Test1" pass="1">Test1</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
