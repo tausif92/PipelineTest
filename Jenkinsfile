@@ -6,6 +6,7 @@ pipeline {
                 echo "initialized"
             }
 	        steps {
+		git([url: 'https://github.com/tausif92/PipelineTest.git', branch: 'master'])
                 robot --include TC1 test1.robot
             }
 	        steps {
